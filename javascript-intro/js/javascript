@@ -31,5 +31,5 @@ let header = "<h1>" + a + "</h1>";
 console.log(header);
 
 
-document.getElementById("hej").innerHTML =header;
+document.getElementById("hej").innerHTML = header;
 document.getElementById("hej").style.color = "blue";

@@ -1,16 +1,41 @@
+
 <!DOCTYPE html>
-<html lang="da">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SKRIV-TITEL-HER</title>
-  <link rel="stylesheet" href="css/css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+</style>
 </head>
 <body>
-  <main>
-    ... Indhold her ...
-  </main>
-  <script src="js/js.js"></script>
+
+<div class="topnav" id="myTopnav">
+  <a href="#Hjem" class="active">Home</a>
+  <a href="#Nyheder">News</a>
+  <a href="#Kontakt">Contact</a>
+  <a href="#Om">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Nosminde æbler</h2>
+  <p>Resize the browser window to see how it works.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
 </body>
 </html>
+
